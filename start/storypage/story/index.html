@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>The Amazing Story of an Immigrant</title>
+  <title>Raha's Journey</title>
   <!--add normalize css before the style css-->
   <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
@@ -16,22 +16,49 @@
 
 <body>
 
+  <nav class="navigation">
+    <div id="menuToggle">
+ <input type="checkbox" >
+
+ <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+          <li><a href="about/index.html">About</a></li>
+          <li><a href="#parallax-container">ch 1</a></li>
+          <li><a href="#ch2">ch 2</a></li>
+          <li><a href="#ch3">ch 3</a></li>
+          <li><a href="#ch4">ch 4</a></li>
+          <li><a href="#ch5">ch 5</a></li>
+
+        </ul>
+      </div>
+    </nav>
+
+
 
 
   <!-- character intro -->
   <nav class="navbar">
-    <a href="#home">Start Page</a>
+    <a  href="../../index.html">back to Start Page</a>
 
   </nav>
 
+<nav class="arrow">
+  <!-- <p>scroll Down</p> -->
+  <div class="arrow bounce"><img src="images/arrow2.png" alt="arrow"></div>
+</nav>
 
+
+<main>
   <div id="parallax-container">
 
     <div><img class="layer2" src="images/b4.png" alt="motifs"></div>
 
     <div class="cloud"><img src="images/backlayer3.png" alt="motif"></div>
     <div><img src="images/intropic2.png" alt="motif"></div>
-
+<div class="arrow bounce"></div>
 
 
 
@@ -41,11 +68,11 @@
   <div id="parallax-container1">
     <div><img src="images/backlayer1.png" alt="motif"></div>
   </div>
-
+</main>
 
 
   <!-- chapter one border -->
-  <section class="ch1">
+  <section id="ch1">
     <div class="ch1border"><img src="images/border3.png" alt="border"></div>
     <div class="ch1p">
       <p>chapter one</p>
@@ -180,9 +207,11 @@
   <!-- run p8 -->
   <section class="ch1-4">
 
-    <div class="run">
+    <div>
       <div class="run"><img class="picture1-4" src="images/run1.png" alt="run"></div>
-      <div class="rocks " data-aos="zoom-in-right" data-aos-easing="linear"><img src="images/rockss.png" alt="run"></div>
+      <div class="rocks1 " data-aos="zoom-in-right" data-aos-easing="linear"  data-aos-duration="900" ><img src="images/rockss1.png" alt="run"></div>
+        <div class="rocks2 " data-aos="zoom-in-right" data-aos-easing="linear"  data-aos-duration="500"><img src="images/rockss2.png" alt="run"></div>
+          <div  data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="700"><img class="rocks3" src="images/rockss3.png" alt="run"></div>
 
     </div>
 
@@ -334,7 +363,7 @@
   <div id="backgroundch2">
 
 
-    <section class="ch2">
+    <section id="ch2">
       <div class="ch2border"><img src="images/border3.png" alt="border"></div>
       <div class="ch2p">
         <p>chapter two</p>
@@ -436,7 +465,7 @@
     <section class="ch1-5">
 
       <div data-aos="fade-down" data-aos-easing="linear">
-        <p>I began to notice evry little detail; everything was so different; highways were huge, and people seemed to obey the laws and regulation much more. All of it was new to me! </p>
+        <p>I began to notice every little detail; everything was so different; highways were huge, and people seemed to obey the laws and regulation much more. All of it was new to me! </p>
 
       </div>
 
@@ -475,8 +504,8 @@
       <div class="explore" data-aos="fade-up-right"><img src="images/explore.png" alt="thinkingpicture"></div>
       <div class="friendshome" data-aos="fade-right"><img src="images/rhouse.png" alt="thinkingpicture"></div>
       <div class="friendshometext" data-aos="fade-left"><img src="images/rhousetext.png" alt="thinkingpicture"></div>
-      <div class=" b6 rellax" data-rellax-speed="1.8"><img src="images/elements.png" alt="motif"></div>
-      <div class=" b7 rellax" data-rellax-speed="2.3"><img src="images/elemnt2.png" alt="closed"></div>
+      <div class=" b6 rellax" data-rellax-speed="1.6"><img src="images/elements.png" alt="motif"></div>
+      <div class=" b7 rellax" data-rellax-speed="2.1"><img src="images/elemnt2.png" alt="closed"></div>
 
     </section>
     <section class="ch2-text">
@@ -528,7 +557,8 @@
         <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="300"><img src="images/d4.png" alt="thinkingpicture"></div>
 
       </div>
-
+  <div  class="fireworks"><img src="images/firework1.GIF" alt="border"></div>
+    <div  class="fireworks1"><img src="images/firework1.GIF" alt="border"></div>
 
 
     </section>
@@ -552,7 +582,7 @@
       <div class="ch2e"><img id="loading" src="images/circle1.png" alt="thinkingpicture"></div>
       <div>
         <div class=" b6 rellax" data-rellax-speed="5"><img src="images/element4.png" alt="motif"></div>
-        <div class=" b8 rellax" data-rellax-speed="5.3"><img src="images/bar3.png" alt="baropen"></div>
+        <div class=" b8 rellax" data-rellax-speed="4.9"><img src="images/bar3.png" alt="baropen"></div>
       </div>
     </section>
     <section>
@@ -568,7 +598,7 @@
 
 
     <!-- chapter3  start -->
-    <section class="ch3">
+    <section id="ch3">
       <div class="ch3border"><img src="images/border3.png" alt="border"></div>
       <div class="ch3p">
         <p>chapter three</p>
@@ -608,6 +638,7 @@
           items for the apartment and set up required accounts with different companies for the monthly bills... </p>
       </div>
     </section>
+
     <!-- paying bills -->
     <section class="ch3-2">
       <div><img class="background3-2" src="images/bill2.png" alt="border"></div>
@@ -645,9 +676,9 @@
 
     <!-- bus station -->
     <section>
-      <div class=" m1 rellax" data-rellax-speed="1.5 "><img src="images/b7.png" alt="motif"></div>
+      <div class=" m1 rellax" data-rellax-speed="1.5 "><img src="images/b11.png" alt="motif"></div>
       <div class="ch3-4" data-aos="zoom-in"><img src="images/station.png" alt="border"></div>
-      <div class=" m1 rellax" data-rellax-speed="1.7 " ><img class="nowopen" src="images/gif1.GIF" width="300" height="200" alt="border"></div>
+      <div class=" m1 rellax" data-rellax-speed="1.5 " ><img class="nowopen" src="images/gif1.GIF" width="300" height="200" alt="border"></div>
     </section>
 
     <section class="ch3-5">
@@ -740,7 +771,7 @@
 
       </div> -->
       <!-- <div class=" m1 rellax" data-rellax-speed="4.5"><img src="images/b4.png" alt="motif"></div> -->
-      <div class=" m1 rellax" data-rellax-speed="1"><img src="images/b8.png" alt="motif"></div>
+      <div class=" m1 rellax" data-rellax-speed="1.1"><img src="images/b11.png" alt="motif"></div>
       <div class=" m1 rellax" data-rellax-speed="1.5"><img src="images/b4.png" alt="motif"></div>
       <div><img class="background2-1" src="images/backgroundl.png" alt="back2"></div>
       <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="ch3-text">
@@ -813,7 +844,7 @@
 
     <section class="ch2-text">
 
-      <div class=" m1 rellax" data-rellax-speed="1"><img src="images/b7.png" alt="motif"></div>
+      <div class=" m1 rellax" data-rellax-speed="1.1"><img src="images/b7.png" alt="motif"></div>
 
       <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1500">
         <p>After a few months my mom went back to my country, which was extremely hard for us.
@@ -832,6 +863,7 @@
       <div>
         <div><img id="motifd9" src="images/motif6.png" alt="animation "></div>
         <div><img id="motifd10" src="images/motif6.png" alt="animation "></div>
+          <div><img id="motifd11" src="images/motif5.png" alt="animation "></div>
 
 
 
@@ -886,8 +918,12 @@
 
   </div>
 
+
+
+
+<!-- CHAPTER4 START -->
   <div id="backgroundch4">
-    <section class="ch3">
+    <section id="ch4">
       <div class="ch3border"><img src="images/border3.png" alt="border"></div>
       <div class="ch3p">
         <p>chapter Four</p>
@@ -899,6 +935,7 @@
       <div>
         <div><img id="motife1" src="images/motife.png" alt="animation "></div>
         <div><img id="motife2" src="images/motife.png" alt="animation "></div>
+          <div><img id="motife7" src="images/motif5.png" alt="animation "></div>
 
       </div>
 
@@ -909,10 +946,10 @@
 
 
     <section>
-
+<div class="gif7" ><img src="images/gif7.GIF" width="200" alt="border"></div>
       <div class="ch4-2" data-aos="fade-down-right"><img src="images/ch4-2.png" alt="border"></div>
       <div class="ch4-2text" data-aos="fade-down-left"><img src="images/4-2text.png" alt="border"></div>
-
+  <div class=" open1 rellax" data-rellax-speed="3" ><img src="images/gif6.GIF" width="200" alt="border"></div>
     </section>
 
     <section class="ch2-text">
@@ -921,21 +958,122 @@
         <p>Back then in the first few months I couldn’t express myself at all,
           and I had a lot to contribute to conversations, but I felt powerless to do so which felt frustrating...</p>
       </div>
+
     </section>
+
+
+<section>
+
+<div class=" open1 rellax" data-rellax-speed="0.5" ><img src="images/gif6.GIF" width="200" alt="border"></div>
+  <div class="dreambubble" data-aos="fade-up-right" data-aos-delay="1000"><img  src="images/dreambubble.png" alt="textbubble"></div>
+  <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500" class="dreamtext">
+    <p> But as my speaking skills improved, and I began to feel more confident. </p>
+      <p>I even remember the time I had my first dream in English! </p>
+  </div>
+  <div >
+<div class="dreamed" data-aos="fade-up-right" data-aos-delay="2500"><img  src="images/dreamed.png" alt="textbubble"></div>
+    <div class="dream" data-aos="zoom-out" data-aos-easing="linear" ><img src="images/dream.png" alt="thinkingpicture"></div>
+
+  <div class=" open1 rellax" data-rellax-speed="0.2"><img src="images/gif8.GIF" alt="border"></div>
+  <div class=" motel rellax" data-rellax-speed="0.4" ><img src="images/motel.png" alt="border"></div>
+  </div>
+</section>
+
+
+<section>
+  <div>
+    <div><img id="motife5" src="images/motifd.png" alt="animation "></div>
+    <div><img id="motife6" src="images/motif5.png" alt="animation "></div>
+  <div><img id="motife3" src="images/motif5.png" alt="animation "></div>
+    <div><img id="motife4" src="images/motif6.png" alt="animation "></div>
+  </div>
+
+  <div class="ch4-2" data-aos="fade-down-right"><img src="images/newfriends.png" alt="border"></div>
+  <div class="ch4-2text" data-aos="fade-down-left"><img src="images/newfriendstext.png" alt="border"></div>
+
+</section>
+
+<section>
+<div class="thechange" data-aos="fade-up-left" data-aos-delay="1000"><img  src="images/thechange.png" alt="textbubble"></div>
+  <div class="ch4-2" data-aos="fade-down-right"><img src="images/listening.png" alt="border"></div>
+  <div class="ch4-2text" data-aos="fade-down-left"><img src="images/listeningtext.png" alt="border"></div>
+
+</section>
+
+
+<section>
+  <div class=" d4 rellax" data-rellax-speed="1.5"><img src="images/b3.png" alt="motif"></div>
+  <div class=" d4 rellax" data-rellax-speed="0.5"><img src="images/b8.png" alt="motif"></div>
+  <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500" class="dreamtext">
+    <p> Through my new friends I started trying new activities that I wasn’t familiar with, like yoga and rock climbing... </p>
+  </div>
+  <div >
+<div class="classes" data-aos="fade-up-left" data-aos-delay="2500"><img  src="images/classes.png" alt="textbubble"></div>
+<div class="yoga" data-aos="fade-up-right" data-aos-delay="1000"><img  src="images/yoga.png" alt="textbubble"></div>
+    <div class="asking"   data-aos="zoom-in" data-aos-easing="linear" ><img src="images/asking.png" alt="thinkingpicture"></div>
+
+  </div>
+</section>
+
+<section>
+
+  <div class="ch4-2" data-aos="fade-right"><img src="images/writing.png" alt="border"></div>
+  <div class="ch4-2text" data-aos="fade-left"><img src="images/writingtext.png" alt="border"></div>
+
+</section>
+
+
+<section class="ch2-text">
+
+  <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+    <p>It felt as if I was a five-year-old who was learning how to speak and how to act all over again…
+       I was building my whole life from scratch, but I wasn’t as angry or disappointed, and I wasn’t blaming myself for everything anymore… </p>
+  </div>
+</section>
+
+
+<section>
+
+  <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500" class="dreamtext">
+    <p> Life was starting to look positive again… </p>
+  </div>
+  <div >
+
+    <div class="ch4final"   data-aos="zoom-in" data-aos-easing="linear" ><img src="images/ch4final.png" alt="thinkingpicture"></div>
+
+  </div>
+</section>
+
+
+
+
+</div>
+
+
+<div id="backgroundch5">
+  <section id="ch5">
+    <div class="ch3border"><img src="images/border3.png" alt="border"></div>
+    <div class="ch3p">
+      <p>chapter Five</p>
+      <p>The Acceptance</p>
+    </div>
+  </section>
+
+  <section>
+    <div class=" d4 rellax" data-rellax-speed="1.4"><img src="images/b9.png" alt="motif"></div>
+    <div class=" d4 rellax" data-rellax-speed="1"><img src="images/b8.png" alt="motif"></div>
+  </section>
+
+
+
+
+
 
 
 
 
 
   </div>
-
-
-
-
-
-
-
-
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>

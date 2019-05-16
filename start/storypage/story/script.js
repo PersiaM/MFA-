@@ -73,9 +73,17 @@ window.addEventListener("optimizedScroll", function() {
   motifd8.style.transform = "rotate(-" + window.pageYOffset / 3 + "deg)";
   motifd9.style.transform = "rotate(-" + window.pageYOffset / 6 + "deg)";
   motifd10.style.transform = "rotate(-" + window.pageYOffset / 3 + "deg)";
+  motifd11.style.transform = "rotate(-" + window.pageYOffset / 4 + "deg)";
+
+
 
   motife1.style.transform = "rotate(-" + window.pageYOffset / 6 + "deg)";
   motife2.style.transform = "rotate(-" + window.pageYOffset / 3 + "deg)";
+  motife3.style.transform = "rotate(-" + window.pageYOffset / 8 + "deg)";
+  motife4.style.transform = "rotate(-" + window.pageYOffset / 5 + "deg)";
+  motife5.style.transform = "rotate(-" + window.pageYOffset / 8 + "deg)";
+  motife6.style.transform = "rotate(-" + window.pageYOffset / 5 + "deg)";
+    motife7.style.transform = "rotate(-" + window.pageYOffset / 5 + "deg)";
 
 
 
@@ -100,21 +108,22 @@ window.addEventListener('scroll', () => {
 
 
 // CHECK FOR USER ACTIVITY
-var timerId = null;
-window.addEventListener('touchstart', resetTimer);
-window.addEventListener('click', resetTimer);
-
-function resetTimer() {
-  // someone is interacting
-  if (timerId !== null) {
-    console.log ("clearingtimeout");
-    clearTimeout(timerId);
-  }
-
-  timerId = setTimeout(function() {
-    timerId = null;
-    console.log('thetimerresethasbeencalled,showopeningscreen');
-    location.reload (true);
-
-  }, 3000);
-}
+// var timee = 5 * 6 * 1000;
+// var timerId = null;
+// window.addEventListener('touchstart', resetTimer);
+// window.addEventListener('click', resetTimer);
+//
+// function resetTimer() {
+//   // someone is interacting
+//   if (timerId !== null) {
+//     console.log ("clearingtimeout");
+//     clearTimeout(timerId);
+//   }
+//
+//   timerId = setTimeout(function() {
+//     timerId = null;
+//     console.log('thetimerresethasbeencalled,showopeningscreen');
+//     window.scrollTo (0,0);
+//
+//   }, 3000);
+// }
